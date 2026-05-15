@@ -1,5 +1,5 @@
 // CHANGE YOUR NUMBER HERE
-const phoneNumber = "91XXXXXXXXXX";
+const phoneNumber = "9881674405";
 
 // WhatsApp Order Button
 function openWhatsApp(){
@@ -13,7 +13,7 @@ window.location.href=`tel:+${phoneNumber}`;
 
 // Google Map Location
 function openMap(){
-window.open("https://maps.google.com");
+window.open("https://maps.app.goo.gl/WfnbY2zxhgRhYb9B7");
 }
 
 // Submit Order
