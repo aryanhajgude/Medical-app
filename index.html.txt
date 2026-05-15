@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Swami Samarth Medical and General Store</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>Shree Swami Samarth Medical</h2>
+<a href="#order">Order</a>
+<a href="#services">Services</a>
+<a href="#reviews">Reviews</a>
+</nav>
+
+<!-- HERO SECTION -->
+<header>
+<h1>Trusted Care, Fast Delivery</h1>
+<p>Serving Since 2005</p>
+
+<button onclick="callNow()">Call Now</button>
+<button onclick="openWhatsApp()">WhatsApp Order</button>
+<button onclick="openMap()">Find Us</button>
+</header>
+
+<!-- ORDER SECTION -->
+<section id="order">
+<h2>Order Medicines</h2>
+
+<input id="name" placeholder="Customer Name">
+<input id="phone" placeholder="Phone Number">
+<textarea id="medicine" placeholder="Medicine Name"></textarea>
+
+<input type="file" id="prescription">
+
+<button onclick="sendOrder()">Submit Order</button>
+
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="card">🚚 Home Delivery</div>
+<div class="card">🩺 BP Check</div>
+<div class="card">💉 Diabetes Care</div>
+<div class="card">📦 Monthly Medicine Packs</div>
+
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+<h2>Customer Reviews</h2>
+
+<p>⭐ Excellent Service - Local Customer</p>
+<p>⭐ Fast Medicine Availability</p>
+<p>⭐ Trusted Since Years</p>
+
+</section>
+
+<footer>
+<p>© Shree Swami Samarth Medical and General Store</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+// CHANGE YOUR NUMBER HERE
+const phoneNumber = "91XXXXXXXXXX";
+
+// WhatsApp Order Button
+function openWhatsApp(){
+window.open(`https://wa.me/${phoneNumber}`);
+}
+
+// Call Button
+function callNow(){
+window.location.href=`tel:+${phoneNumber}`;
+}
+
+// Google Map Location
+function openMap(){
+window.open("https://maps.google.com");
+}
+
+// Submit Order
+function sendOrder(){
+
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let medicine=document.getElementById("medicine").value;
+
+let message =
+`Medical Order%0A
+Name: ${name}%0A
+Phone: ${phone}%0A
+Medicines: ${medicine}`;
+
+window.open(`https://wa.me/${phoneNumber}?text=${message}`);
+}
